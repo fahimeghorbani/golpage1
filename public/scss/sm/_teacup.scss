@@ -1,0 +1,28 @@
+body div.teacup {
+  width: 100%;
+  height: 292px;
+  position: relative;
+  margin-top: 100px;
+}
+body div.teacup > div.imgcup {
+  width: 100%;
+  height: inherit;
+  background-color: #e9d69f;
+}
+body div.teacup > div.imgcup > img {
+  width: inherit;
+  height: 212px;
+}
+body div.teacup > div.teagol2 {
+  @include maker();
+}
+div.teacup > div.teagol2 > h1 {
+  color: white;
+  font-family: yekan;
+}
+div.teacup > div.teagol2 > p {
+  color: white;
+  font-family: yekan;
+  font-size: 20px;
+  padding-top: 5px;
+}

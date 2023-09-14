@@ -1,0 +1,64 @@
+body div.teagolestan {
+  width: 100%;
+  height: 500px;
+  background-color: #DBDBDB;
+  display: flex;
+}
+div.teagolestan > div:nth-of-type(1) {
+  width: 50%;
+  height: 500px;
+}
+div.teagolestan > div:nth-of-type(1) > div.p1 {
+  width: 400px;
+  height: 49px;
+  margin-top: 105px;
+  margin-right: 180px;
+  color: #ff0000;
+  font-family: yekan;
+  font-size: 30px;
+}
+div.teagolestan > div:nth-of-type(1) > div.p2 {
+  width: 400px;
+  height: 33px;
+  margin-right: 180px;
+  color: #58595b;
+  font-family: yekan;
+  font-size: 20px;
+}
+body div.teagolestan > div:nth-of-type(1) > div.p3 {
+  width: 400px;
+  height: 81px;
+  margin-top: 35px;
+  margin-right: 180px;
+  color: #898989;
+  font-family: yekan;
+  font-size: 16px;
+  text-align: justify;
+}
+div.teagolestan > div:nth-of-type(1) > div.moreinfo {
+  width: 125.95px;
+  height: 47px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 47px;
+  margin-top: 30px;
+  margin-right: 180px;
+  font-family: yekan;
+  background-color: rgb(255, 255, 255);
+}
+
+div.teagolestan > div:nth-of-type(1) > div.moreinfo > a {
+  text-decoration: none;
+  color: #94979a;
+}
+div.teagolestan > div:nth-of-type(1) > div.moreinfo:hover {
+  background-color: #ff0000;
+}
+div.teagolestan > div:nth-of-type(1) > div.moreinfo:hover > a {
+  color: white;
+}
+div.teagolestan > div:nth-of-type(2) {
+  margin-right: 200px;
+  margin-top: 50px;
+}

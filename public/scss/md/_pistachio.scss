@@ -1,0 +1,35 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body div.pistachio {
+    width: 100%;
+    height: 286px;
+    position: relative;
+  }
+  body div.pistachio > div.imgpistachio {
+    width: 100%;
+    height: 286px;
+    background-color: #e9d69f;
+  }
+  body div.pistachio > div.imgpistachio > img {
+    width: 100%;
+    height: 266px;
+    object-fit: cover;
+  }
+  body div.pistachio > div.pistachiogol {
+    @include maker();
+    top: 65%;
+  }
+  div.pistachio > div.pistachiogol > h1 {
+    color: white;
+    font-family: yekan;
+  }
+  div.pistachio > div.pistachiogol > p {
+    color: white;
+    font-family: yekan;
+    font-size: 20px;
+    padding-top: 5px;
+  }

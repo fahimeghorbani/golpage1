@@ -1,0 +1,43 @@
+div.history {
+    width: 100%;
+    height: 507px;
+  }
+  div.history > hr {
+    margin-top: -27px;
+  }
+  div.history > div.texthistory {
+    width: 710px;
+    height: 365px;
+    margin: 50px auto;
+  }
+  div.history > div.texthistory > h3 {
+    color: #ff0000;
+    font-family: yekan;
+  }
+  body div.history > div.texthistory > p {
+    font-family: yekan;
+    margin-top: 15px;
+    font-size: 15px;
+    color: rgba(129, 133, 136, 0.9);
+    line-height: 35px;
+    text-align: justify;
+  }
+  div.history > div.texthistory > div.teaproduct {
+    width: 130px;
+    height: 45px;
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 45px;
+  }
+  div.history > div.texthistory > div.teaproduct > p {
+    color: rgba(129, 133, 136, 0.9);
+    font-family: yekan;
+  }
+  div.history > div.texthistory > div.teaproduct:hover {
+    background-color: #ff0000;
+  }
+  div.history > div.texthistory > div.teaproduct:hover > p {
+    color: white;
+  }

@@ -1,0 +1,17 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.foodcooking {
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/foodcooking/foodcooking.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: blueviolet;
+    margin-top: 70px;
+  }

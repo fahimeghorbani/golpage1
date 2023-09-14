@@ -1,0 +1,34 @@
+
+div.rice {
+    width: 100%;
+    height: 574px;
+    position: relative;
+    box-sizing: border-box;
+  }
+  div.rice > hr {
+    margin-top: 155px;
+  }
+  div.rice > div.imgrice {
+    width: 100%;
+    height: 520px;
+    margin-top: 27px;
+    background-color: #e9d69f;
+  }
+  body div.rice > div.imgrice > img {
+    height: 500px;
+    object-fit: cover
+  }
+  div.rice > div.ricegol {
+    @include maker();
+  }
+  div.rice > div.ricegol > h1 {
+    color: white;
+    font-family: yekan;
+  }
+  div.rice > div.ricegol > p {
+    color: white;
+    font-family: yekan;
+    font-size: 20px;
+    padding-top: 7px;
+    box-sizing: border-box;
+  }

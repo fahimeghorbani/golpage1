@@ -1,0 +1,78 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.null{
+  width: 100%;
+  height: 170px;
+}
+body div.teagolestan {
+  width: 100%;
+  height: 430px;
+  background-color: #DBDBDB;
+  display: flex;
+}
+html body div.teagolestan > div:nth-of-type(1) {
+  width: 50%;
+  height: inherit;
+}
+body div.teagolestan > div:nth-of-type(1) > div.p1 {
+  width: 100%;
+  margin-top: 50px;
+  margin-right: 40px;
+  color: #ff0000;
+  font-family: yekan;
+  font-size: 30px;
+}
+body div.teagolestan > div:nth-of-type(1) > div.p2 {
+  width: 100%;
+  margin-right: 40px;
+  color: #58595b;
+  font-family: yekan;
+  font-size: 20px;
+}
+html body div.teagolestan > div:nth-of-type(1) > div.p3 {
+  width: 80%;
+  height: auto;
+  color: #898989;
+  font-family: yekan;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: justify;
+  margin-right: 40px;
+}
+body div.teagolestan > div:nth-of-type(1) > div.moreinfo {
+  width: 125.95px;
+  height: 47px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 47px;
+  margin-top: 50px;
+  margin-right: 40px;
+  font-family: yekan;
+  background-color: rgb(255, 255, 255);
+}
+
+body div.teagolestan > div:nth-of-type(1) > div.moreinfo > a {
+  text-decoration: none;
+  color: #94979a;
+}
+body div.teagolestan > div:nth-of-type(1) > div.moreinfo:hover {
+  background-color: #ff0000;
+}
+body div.teagolestan > div:nth-of-type(1) > div.moreinfo:hover > a {
+  color: white;
+}
+body div.teagolestan > div:nth-of-type(2) {
+  width: 50%;
+  height: inherit;
+  margin-right: 0;
+  text-align: center;
+  margin-top: 0;
+}
+body div.teagolestan > div:nth-of-type(2) > img {
+  margin-top: 15px;
+}

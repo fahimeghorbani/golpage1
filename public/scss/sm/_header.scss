@@ -1,0 +1,65 @@
+header > div.menu {
+  width: 100%;
+  height: 125px;
+  background-color: #2b2b2b;
+  position: fixed;
+  z-index: 2;
+  text-align: center;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+header > div.menu > div.menu1 {
+  display: none;
+}
+header > div.menu > div.imgheader {
+  width: 100%;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+header > label > i.hamburger {
+  position: fixed;
+  z-index: 2;
+  top: 125px;
+  display: inline-block;
+  width: 100%;
+  height: 55px;
+  background-color: #2b2b2b;
+  cursor: pointer;
+  font-size: 25px;
+  color: #afb2b4;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+i.hamburger:hover {
+  color: white;
+}
+body header > div.submenu {
+  width: 100%;
+  height: 348px;
+  background-color: #2b2b2b;
+  position: fixed;
+  top: 170px;
+  z-index:10;
+  display: none;
+}
+header > div.submenu > a {
+  display: block;
+  z-index: 1000;
+  padding-right: 20px;
+  line-height: 43px;
+  font-size: 17px;
+  font-family: yekan;
+  text-decoration: none;
+  color: #afb2b4;
+  transition: 300ms;
+}
+div.submenu > a:hover {
+  color: white;
+}
+#show {
+  display: none;
+}
+#show:checked ~ div.submenu {
+  display: block;
+}

@@ -1,0 +1,57 @@
+div.socialmedia {
+    width: 100%;
+    height: 125px;
+    background-color: rgb(237, 28, 36);
+    margin-top: 50px;
+  }
+  div.socialmedia > div.child {
+    width: 100%;
+    height: 100px;
+    background-color: #eeefef;
+    display: flex;
+    justify-content: center;
+  }
+  div.socialmedia > div.child > div.facebook,
+  div.linkedin,
+  div.instagram,
+  div.telegram,
+  div.aparat,
+  div.gl {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #79747480;
+    margin-top: 25px;
+    margin-left: 5px;
+    text-align: center;
+  }
+  div.socialmedia > div.child > div.facebook > a > i,
+  div.linkedin > a > i,
+  div.instagram > a > i,
+  div.telegram > a > i {
+    line-height: 50px;
+    color: whitesmoke;
+    font-size: 30px;
+  }
+  div.socialmedia > div.child > div.gl > a {
+    text-decoration: none;
+    line-height: 50px;
+    color: whitesmoke;
+    font-size: 30px;
+  }
+  div.socialmedia > div.child > div.facebook:hover {
+    background-color: rgba(91, 91, 236, 0.5);
+  }
+  div.socialmedia > div.child > div.linkedin:hover {
+    background-color: rgba(91, 209, 215, 0.9);
+  }
+  div.socialmedia > div.child > div.instagram:hover {
+    background-color: rgb(170, 74, 74);
+  }
+  div.socialmedia > div.child > div.telegram:hover {
+    background-color: rgba(91, 209, 215, 0.9);
+  }
+  
+  div.socialmedia > div.child > div.gl:hover {
+    background-color: rgb(105, 160, 57);
+  }

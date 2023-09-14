@@ -1,0 +1,19 @@
+body div.fourpicture {
+    width: 805px;
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: none;
+  }
+  div.fourpicture > div.img1,
+  div.img2,
+  div.img3,
+  div.img4 {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    font-family: yekan;
+    color: #585858;
+    font-size: 17px;
+  }
+  

@@ -1,0 +1,55 @@
+div.iranifood {
+    width: 100%;
+    height: 402px;
+  }
+  div.iranifood > div.rokn {
+    width: 705px;
+    height: 265px;
+    margin: 50px auto;
+  }
+  div.iranifood > div.rokn > h3 {
+    color: #ff0000;
+    font-family: yekan;
+    font-size: 18px;
+  }
+  div.iranifood > div.rokn > p {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: yekan;
+    color: rgba(129, 133, 136, 0.9);
+    line-height: 35px;
+    text-align: justify;
+  }
+  div.iranifood > div.rokn > div.product,
+  div.kitchen {
+    width: 130px;
+    height: 45px;
+    border: 1px solid #c8c8c8;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+    margin-top: 35px;
+  }
+  div.iranifood > div.rokn > div.product > p {
+    color: rgba(129, 133, 136, 0.9);
+    font-size: 15px;
+    font-family: yekan;
+  }
+  div.iranifood > div.rokn > div.kitchen > p {
+    color: rgba(129, 133, 136, 0.9);
+    font-size: 15px;
+    font-family: yekan;
+  }
+  div.iranifood > div.rokn > div.product:hover {
+    background-color: #ff0000;
+  }
+  div.iranifood > div.rokn > div.product:hover > p {
+    color: white;
+  }
+  div.iranifood > div.rokn > div.kitchen:hover {
+    background-color: #ff0000;
+  }
+  div.iranifood > div.rokn > div.kitchen:hover > p {
+    color: white;
+  }

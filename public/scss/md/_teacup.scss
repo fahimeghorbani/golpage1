@@ -1,0 +1,35 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body div.teacup {
+    width: 100%;
+    height: 286px;
+    position: relative;
+  }
+  body div.teacup > div.imgcup {
+    width: 100%;
+    height: 286px;
+    background-color: #e9d69f;
+  }
+  body div.teacup > div.imgcup > img {
+    width: 100%;
+    height: 266px;
+    object-fit: cover;
+  }
+  body div.teacup > div.teagol2 {
+    @include maker();
+    top: 65%;
+  }
+  div.teacup > div.teagol2 > h1 {
+    color: white;
+    font-family: yekan;
+  }
+  div.teacup > div.teagol2 > p {
+    color: white;
+    font-family: yekan;
+    font-size: 20px;
+    padding-top: 5px;
+  }
